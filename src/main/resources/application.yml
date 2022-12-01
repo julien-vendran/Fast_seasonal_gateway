@@ -12,3 +12,4 @@ spring:
               - POST
               - PUT
               - DELETE
+            allowedHeaders: "*"
