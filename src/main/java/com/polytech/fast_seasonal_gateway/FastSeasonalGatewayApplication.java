@@ -29,6 +29,10 @@ public class FastSeasonalGatewayApplication {
                 .uri("http://localhost:8081")
             )
             .route(p -> p
+                .path("/api/grade/**")
+                .uri("http://localhost:8081")
+            )
+            .route(p -> p
                 .path("/api/offer/**")
                 .uri("http://localhost:8082")
             )
